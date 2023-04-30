@@ -11,4 +11,5 @@ Copy all files into a single folder. These files need to be available from withi
 Linux Mint Cinnamon is a good choice for live environment because the script works.</br>
 https://www.linuxmint.com/download.php</br></br>
 lsblk to determine which drive ChromeOS will be installed to.</br></br>
-**Be sure the script matches your architecture and hard drive.**
+**Be sure the script matches the architecture and hard drive.**</br>
+Set computer to boot in UEFI mode.
