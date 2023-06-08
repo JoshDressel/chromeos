@@ -1,5 +1,7 @@
 #!/bin/sh
-sudo apt update && sudo apt install pv cgpt
+sudo apt update
+sudo apt install pv
+sudo apt install cgpt
 # Change storage to match correct location (try lsblk)
 # https://beebom.com/how-install-chrome-os-on-pc/ for more detailed instructions.
 sudo bash chromeos-install.sh -src rammus_recovery.bin -dst /dev/sda
